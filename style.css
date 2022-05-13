@@ -1,0 +1,83 @@
+.Places {
+    padding: 1.2em;
+    width: 95%;
+    border: 2px solid grey;
+    margin: 1em;
+    margin-bottom: 0.8em;
+    display: flex;
+    min-height: 1em;
+
+}
+h1 {
+    text-align: center;
+    
+}
+h3{
+    text-align: left;
+    
+}
+
+.city{
+    border: 0.1em dashed grey;
+    border-radius: 1em;
+    width: 40em;
+    display: flex;
+    margin: auto;
+}
+.Me {
+    padding: 8em;
+}
+.intro {
+    display: flex;
+    padding: 2%;
+}
+.city_intro{
+    padding: 3em;
+    text-align: justify;
+}
+
+th, td{
+    width: 5%;
+padding: 15px;
+text-align:left;
+border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(odd) {background-color: #f2f2f2;}
+tr:nth-child(1) {
+    font-size: larger;
+    font-style: italic;
+}
+
+.SKI{
+    border: 1px solid grey dotted;
+    padding: auto;
+    margin: 6px;
+    flex: 1;
+    display: block;
+}
+.content1{
+    display: flex;
+
+}
+
+
+.Wall{
+    padding: auto;
+    margin: 6px;
+    flex: 1;
+    display: block;
+}
+.content2 {
+    display: flex;
+}
+
+.Stadium{
+    padding: auto;
+    margin: 6px;
+    flex: 1;
+    display: block;
+}
+.content3 {
+    display: flex;
+}
