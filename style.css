@@ -2,6 +2,7 @@
     padding: 1.2em;
     width: 95%;
     border: 2px solid grey;
+    border-radius: 5px;
     margin: 1em;
     margin-bottom: 0.8em;
     display: flex;
@@ -16,8 +17,14 @@ h3{
     text-align: left;
     
 }
+body{
+    font-size: larger;
+    background-color: #d8e2dc;
+}
 
 .city{
+    background-color: #558B8B;
+    color: #fff;
     border: 0.1em dashed grey;
     border-radius: 1em;
     width: 40em;
@@ -26,6 +33,9 @@ h3{
 }
 .Me {
     padding: 8em;
+    
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: double;
 }
 .intro {
     display: flex;
@@ -55,6 +65,7 @@ tr:nth-child(1) {
     margin: 6px;
     flex: 1;
     display: block;
+    width: 30%;
 }
 .content1{
     display: flex;
@@ -67,6 +78,7 @@ tr:nth-child(1) {
     margin: 6px;
     flex: 1;
     display: block;
+    width: 30%;
 }
 .content2 {
     display: flex;
@@ -77,6 +89,7 @@ tr:nth-child(1) {
     margin: 6px;
     flex: 1;
     display: block;
+    width: 30%;
 }
 .content3 {
     display: flex;
