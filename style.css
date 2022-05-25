@@ -19,13 +19,13 @@ $dark-gray: #333447; // for the Americans
 @media (min-width:960px) {
     .Places {
         display: flex;
-
+        justify-items: center;
     }
-    .pic2{
-        flex: 1;
     }
 
-}
+
+
+
 h1 {
     text-align: center;
     font-size: 2.5rem
@@ -104,7 +104,15 @@ tr:nth-child(1) {
 }
 .content2 {
     display: flex;
+    flex-direction: row-reverse;
 }
+@media (min-width:960px) {
+    .content2{
+    flex: auto;
+flex-direction: row;
+}
+}
+
 
 .Stadium{
     padding: auto;
